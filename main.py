@@ -9,7 +9,7 @@ class MathFunction:
         return self.a - self.b
     
     def multiply(self):
-        return self.a - self.b
+        return self.a * self.b
 
 obj = MathFunction(10, 5)
 print(obj.addition())
